@@ -36,7 +36,7 @@ const DeleteData = ()=>{
     return (
         <div >
             <form onSubmit={handleSubmit}>
-                <label for="msgId" className={styles.label}>Enter the message ID to be deleted</label><br/><br/>
+                <label htmlfor="msgId" className={styles.label}>Enter the message ID to be deleted</label><br/><br/>
                 <input
                     type="text"
                     id="msgId"

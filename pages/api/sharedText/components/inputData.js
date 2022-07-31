@@ -30,7 +30,7 @@ const InputData = ()=>{
     return (
         <div >
         <form onSubmit={handleSubmit}>
-                <label for="textdata" className={styles.label}>Enter Message to be sent</label><br/><br/>
+                <label htmlfor="textdata" className={styles.label}>Enter Message to be sent</label><br/><br/>
                 <input
                     type="text"
                     id="textdata"

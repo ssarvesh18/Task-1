@@ -29,7 +29,7 @@ const OutputData = ()=>{
     return (
         <div >
         <form onSubmit={handleSubmit}>
-                <label for="msgId" className={styles.label}>Enter the message ID to be fetched</label><br/><br/>
+                <label htmlfor="msgId" className={styles.label}>Enter the message ID to be fetched</label><br/><br/>
                 <input
                     type="text"
                     id="msgId"
@@ -41,7 +41,7 @@ const OutputData = ()=>{
                     
                 /><br/><br/>
                 <button type="submit" className={styles.button}>Get data</button><br/><br/>
-                <label for="textData" className={styles.label}>Message :</label><br/><br/>
+                <label htmlfor="textData" className={styles.label}>Message :</label><br/><br/>
                 <input 
                     value = {textData}
                     type="text"
