@@ -43,7 +43,7 @@ const EditData = ()=>{
     return (
         <div >
             <form onSubmit={handleSubmit}>
-                <label htmlfor="msgId" className={styles.label}>Enter the message ID to be edited</label><br/><br/>
+                <label htmlFor="msgId" className={styles.label}>Enter the message ID to be edited</label><br/><br/>
                 <input
                     type="text"
                     id="msgId"
@@ -54,7 +54,7 @@ const EditData = ()=>{
                     className={styles.input}
                    
                 /><br/><br/>
-                <label htmlfor="textData" className={styles.label}>Enter edited message :</label><br/><br/>
+                <label htmlFor="textData" className={styles.label}>Enter edited message :</label><br/><br/>
                 <input 
                     type="text"
                     id="textData"
