@@ -36,8 +36,8 @@ const InputData = ()=>{
                     id="textdata"
                     name="textdata"
                     required
-                    minlength="1"
-                    maxlength="256"
+                    minLength="1"
+                    maxLength="256"
                     onChange={handleChange}
                     value = {textData}
                     className={styles.input}
