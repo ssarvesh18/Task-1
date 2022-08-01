@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import InputData from './api/sharedText/components/inputData'
-import Layout from './api/sharedText/components/Layout'
+import Layout from './api/sharedText/components/layout'
 import OutputData from './api/sharedText/components/outputData'
 import EditData from './api/sharedText/components/editData'
 import DeleteData from './api/sharedText/components/deleteData'
