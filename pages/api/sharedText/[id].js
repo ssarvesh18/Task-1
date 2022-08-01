@@ -1,5 +1,5 @@
 import dbConnect from '../../../utils/dbConnect'
-import TextData from '../../../models/TextData'
+import TextData from '../../../models/textData'
 
 
 dbConnect();
