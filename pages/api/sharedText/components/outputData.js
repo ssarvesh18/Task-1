@@ -8,7 +8,7 @@ const OutputData = ()=>{
         event.preventDefault();
         
         try{
-            const res = await fetch(`http://localhost:3000/api/sharedText/${msgId}`)
+            const res = await fetch(`https://${process.env.VERCEL_URL}/api/sharedText/${msgId}`)
             const {data} = await res.json();
             setTextData(data[0].textData);
            

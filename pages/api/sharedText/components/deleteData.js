@@ -8,7 +8,7 @@ const DeleteData = ()=>{
     const handleSubmit = async(event)=>{
         event.preventDefault();
         
-        const res = await fetch(`http://localhost:3000/api/sharedText/${msgId}`,{
+        const res = await fetch(`https://${process.env.VERCEL_URL}/api/sharedText/${msgId}`,{
             method: 'Delete',
             headers: {
             'Accept': 'application/json',

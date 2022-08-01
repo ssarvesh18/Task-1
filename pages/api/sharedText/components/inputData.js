@@ -8,7 +8,7 @@ const InputData = ()=>{
         event.preventDefault();
         const sendData = JSON.stringify({textData : textData});
         
-        const res = await fetch('http://localhost:3000/api/sharedText/1', {
+        const res = await fetch(`https://${process.env.VERCEL_URL}/api/sharedText/1`, {
             method: 'POST',
             headers: {
             'Accept': 'application/json',
