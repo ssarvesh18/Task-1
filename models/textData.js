@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
 const textDataSchema = new mongoose.Schema({
     textData : String,
