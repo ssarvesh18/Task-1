@@ -5,6 +5,15 @@ html,
   background-size: contain;
   
 }
+.layout{
+
+  justify-content: space-around;
+  font-family: Georgia, sans-serif;
+  text-align: center;
+  margin-top: auto;
+  
+  }
+  
 
 
 body {
